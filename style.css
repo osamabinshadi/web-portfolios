@@ -1,18 +1,72 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
 }
-.name-highlight{
+h2{
+    font-size: 30px;
+}
+p{
+    color: darkgray;
+}
+.orange-highlight{
     color: rgb(240, 198, 11);
 }
 .half-width {
     width: 30%;
     float: left;
-    margin-left: 8%;
+    margin-left: 6%;
     padding-left: 4%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
+}
+.top-banner{
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(#0029cc, #04a7d4);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-expreience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+     
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
